@@ -1,3 +1,49 @@
 body {
-    background-color: orange;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: blue;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 10%;
+    background-color: yellowgreen;
+
+}
+
+.search-city {
+    display: flex;
+    background-color: purple;
+
+}
+
+.search-btn {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgba(79, 79, 209, 0.632);
+    color: white;
+    border: solid 1px;
+    cursor: pointer;
+
+}
+.current-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
 }
