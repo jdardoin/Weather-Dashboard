@@ -1,5 +1,6 @@
-var num1 = 2;
-var num2 = 3;
+// API key
+const apiKey = '78606d4dbe29fee3ab7916d679da0905';
 
-console.log(num1);
-console.log(num2);
+// APU URL
+const url = 'https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}';
+
