@@ -41,3 +41,6 @@ HTML, CSS, JavaScript and API was used to create this application.
 ### Deployed application
 
 https://jdardoin.github.io/Weather-Dashboard/
+
+
+![Alt text](image.png)
