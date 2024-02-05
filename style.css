@@ -1,21 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-}
+} 
 
 h1 {
     color: white;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(63, 65, 189);
     margin: 0;
     padding: 20px;
 }
 
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: purple;
 
 }
 
@@ -25,13 +23,11 @@ h1 {
     align-items: center;
     padding: 20px;
     border-radius: 8px;
-    background-color: red;
 }
 
 input {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: yellowgreen;
 }
 
 .search-btn {
@@ -43,32 +39,24 @@ input {
     cursor: pointer;
 }
 
-.current-weather,
-.forecast {
+ .current-weather
+ {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
     padding: 20px;
-    background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    background-color: orange;
-}
+    border: solid;
+} 
+    
 
 
-.current-weather {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10%;
-    background-color: pink;
-}
 
 .forecast {
-   justify-content: left;
+   display: flex;
+    justify-content: space-around;
     margin-top: 10%;
-    background-color: rgba(4, 134, 143, 0.632);
+    background-color: rgba(6, 79, 162, 0.632);
 }
