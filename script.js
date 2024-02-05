@@ -73,6 +73,6 @@ function displayForecast(cityName) {
         forecastContainer.appendChild(forecastItem);
       }
     })
-    .catch((error) => console.error("Error fetching forecast data:", error));
+    .catch((error) => console.error("Error fetching forecast:", error));
 }
 
